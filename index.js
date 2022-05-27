@@ -51,7 +51,7 @@ function lakukanLooping(arrPegawai) {
 
   let komentar = "";
 
-  for (let i = hasilLooping; i < dataYangAkanDilooping.length; i++) {
+  for (let dataYangAkanDilooping = hasilLooping; dataYangAkanDilooping < 100; i++) {
     if (jumlahPria > jumlahWanita) {
       komentar += "Jumlah Pria lebih banyak dari Wanita";
     } else if (jumlahPria < jumlahWanita) {
