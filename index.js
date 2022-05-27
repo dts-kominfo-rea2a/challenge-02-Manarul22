@@ -51,13 +51,13 @@ function lakukanLooping(arrPegawai) {
 
   let komentar = "";
 
-  for (let dataYangAkanDilooping = hasilLooping; dataYangAkanDilooping < 100; i++) {
-    if (jumlahPria > jumlahWanita) {
-      komentar += "Jumlah Pria lebih banyak dari Wanita";
-    } else if (jumlahPria < jumlahWanita) {
-      komentar += "Jumlah Wanita lebih banyak dari Pria";
+  for (let i = 1; hasilLooping < 100; i++) {
+    if (jumlahPria[i] > jumlahWanita[i]) {
+      komentar += "jumlah pria lebih banyak dari wanita";
+    } else if (jumlahPria[i] < jumlahWanita) {
+      komentar += "jumlah wanita lebih banyak dari pria";
     } else {
-      komentar += "Jumlah Pria dan Wanita berimbang";
+      komentar += "jumlah pria dan wanita berimbang";
     }
   }
 
