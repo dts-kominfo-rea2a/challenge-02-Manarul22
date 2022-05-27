@@ -54,7 +54,7 @@ function lakukanLooping(arrPegawai) {
   for (let i = 1; hasilLooping < 100; i++) {
     if (jumlahPria[i] > jumlahWanita[i]) {
       komentar += "jumlah pria lebih banyak dari wanita";
-    } else if (jumlahPria[i] < jumlahWanita) {
+    } else if (jumlahPria[i] < jumlahWanita[i]) {
       komentar += "jumlah wanita lebih banyak dari pria";
     } else {
       komentar += "jumlah pria dan wanita berimbang";
